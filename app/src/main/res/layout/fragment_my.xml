@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.MyFragment"
+    android:id="@+id/fragmentMy"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/myCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/mtrl_card_spacing"
+        android:layout_marginTop="@dimen/mtrl_card_spacing"
+        android:layout_marginRight="@dimen/mtrl_card_spacing"
+        android:minHeight="200dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:orientation="vertical" >
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/myImage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/avatar"
+                app:civ_border_color="@color/md_amber_500_75"
+                app:civ_border_width="6dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/txtUniversity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/university"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/txtHoobies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hoobies"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:id="@+id/txtHoobiesDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hoobiesDesc"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/txtWorking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/workingExp"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:id="@+id/txtWorkingDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/workingDesc1"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

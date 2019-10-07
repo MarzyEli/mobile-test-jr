@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_location"
+        android:checked="true"
+        android:icon="@drawable/ic_location"
+        android:iconTintMode="@color/md_white_1000"
+        android:title="@string/location"/>
+    <item
+        android:id="@+id/nav_users"
+        android:checked="true"
+        android:icon="@drawable/ic_user"
+        android:iconTintMode="@color/md_white_1000"
+        android:title="@string/user"/>
+</menu>

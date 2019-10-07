@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TestAppMarzy</string>
+
+    <!-- Menú -->
+    <string name="location">Localizar</string>
+    <string name="user">User</string>
+
+    <!-- Mis datos -->
+    <string name="name">Marzy Alejandra Elizalde Romero</string>
+    <string name="university">Ing. Tecnologías de la información y Comunicación</string>
+    <string name="hoobies">Datos generales:</string>
+    <string name="hoobiesDesc">Tengo 24 años, en mis tiempos libres me gusta leer, escuchar música,salir a conocer lugare
+    nuevos, tomar cursos o pasar tiempo con mi familia.</string>
+    <string name="workingExp">Experiencia laboral:</string>
+    <string name="workingDesc">Tengo 3 años desarrollando, el lenguaje que más domino es C#, pero también tengo conocimientos sobre aplicaciones
+    móviles para Android y IOS, cada uno en sus respectivos lenguajes nativos.</string>
+    <string name="workingDesc1">Donde me encuentro actualmente es mi primer experiencia laboral, pero ahí he tenido la oportunidad
+    de participar en varios proyectos como desarrolladora web o móvil, analista,etc incluso en auditorias para certificación de CMMI </string>
+
+
+</resources>
