@@ -1,0 +1,8 @@
+# Tareas llevadas a cabo para la construcción de la app
+
+1. Creación del proyecto
+2. Diseño y creación de fragments para la construcción del bottom navigation
+3. Obtención de api string key para la utilización de las APIS de google maps
+4. Consumir API de ISS
+5. Construir funcionalidad de marcar ubicación en el mapa y actualizarla cada 15 segs
+6. Construcción de la pequeña sección personal
